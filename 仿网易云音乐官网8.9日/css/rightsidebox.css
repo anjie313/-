@@ -1,0 +1,142 @@
+/* 右侧边栏 */
+.g-sdr {
+  width: 255px;
+  border-right: 1px #ccc solid;
+  background-color: #fff;
+}
+
+.sdr-login {
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.6);
+}
+
+.r-login {
+  width: 255px;
+  height: 126px;
+  background-color: #fff;
+  border-bottom: 1px solid #666;
+  box-shadow: 0px -30px 50px 5px rgba(0, 0, 0, 0.1) inset;
+}
+
+.r-note {
+  display: block;
+  width: 205px;
+  margin: 0 auto;
+  padding: 16px 25px;
+  line-height: 22px;
+}
+
+#r-login {
+  display: block;
+  border-radius: 4px;
+  margin: 0 auto;
+  width: 100px;
+  height: 31px;
+  background-color: #c20c0c;
+  text-align: center;
+  line-height: 31px;
+  font-size: 12px;
+  color: #fff;
+}
+
+.r-login a:hover {
+  background-color: rgba(255, 0, 0, 0.829) !important;
+}
+
+.sdr-singer {
+  background-color: #fff;
+  padding-bottom: 540px;
+}
+
+.v-hd3 {
+  height: 23px;
+  margin: 0 10px;
+  padding-top: 20px;
+  border-bottom: 1px solid #ccc;
+  color: #333;
+}
+
+.rz-singer {
+  float: left;
+  margin-left:10px;
+}
+
+.r-more {
+  float: right;
+}
+
+.singer {
+  float: left;
+  width: 230px;
+  height: 62px;
+  margin: 15px 0;
+  background-color: #eeeeee6e;
+  border: 1px solid #ccc;
+  border-left: none;
+}
+
+.singer-head {
+  float: left;
+  width: 62px;
+  height: 62px;
+}
+
+.singer-info {
+  float: right;
+  width: 153px;
+  height: 60px;
+}
+
+.singer-info h4 {
+  margin-top: 8px;
+}
+
+.singer-info p {
+  width: 90%;
+  margin-top: 8px;
+}
+
+.apply-singer {
+  display: inline-block;
+  height: 31px;
+  width: 205px;
+  line-height: 31px;
+  text-align: center;
+  margin-left: 10px;
+  border: 1px #ccc solid;
+  border-radius: 4px;
+  background-color: #f5f5f5;
+  font-size: 14px;
+}
+
+/* 主播 */
+
+.rz-liver {
+  float: left;
+  margin-left: 10px;
+}
+
+.liver {
+  float: left;
+  width: 200px;
+  height: 40px;
+  margin: 7px 0;
+  background-color: #eeeeee6e;
+  /* border: 1px solid #ccc; */
+  border-left: none;
+}
+
+.cver {
+  float: left;
+  width: 40px;
+  height: 40px;
+}
+
+.liver-info {
+  float: right;
+  width: 153px;
+  height: 40px;
+}
+
+.liver-info liver-name {
+  font-size: 14px;
+}

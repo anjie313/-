@@ -1,0 +1,1029 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>网易云音乐</title>
+    <link rel="stylesheet" href="../swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/leftbox.css" />
+    <link rel="stylesheet" href="../css/rightsidebox.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../less/leftbox.less">
+    <link rel="stylesheet" href="../less/footer.less">
+  </head>
+
+  <body>
+    <!-- 顶部 -->
+    <div class="topBar" id="topBar" style="width: 100%">
+      <!-- 黑色条 -->
+      <div class="m-top">
+        <div class="top">
+          <div class="logo">
+            <a href="#"><img src="../img/logo/logo2.png" /></a>
+          </div>
+          <div id="black">发现音乐</div>
+          <div id="black">我的音乐</div>
+          <div id="black">关注</div>
+          <div id="black">商城</div>
+          <div id="black">音乐人</div>
+          <div id="black" style="padding-right: 5px">下载客户端</div>
+          <div class="hot"><img src="../img/icon/hot.png" alt="" /></div>
+          <div class="srch">
+            <div class="srch1"><img src="../img/icon/放大镜.png" alt="" /></div>
+            <input type="search" placeholder="音乐/视频/电台/用户" />
+          </div>
+          <div id="creat">
+            <li><a href="#">创作者中心</a></li>
+          </div>
+          <div id="login"><a href="#">登陆</a></div>
+        </div>
+      </div>
+      <!-- 红色条条 -->
+      <div class="redBar">
+        <div class="nav2">
+          <li><a href="#">推荐</a></li>
+          <li><a href="#">排行榜</a></li>
+          <li><a href="#">歌单&reg;</a></li>
+          <li><a href="#">主播电台</a></li>
+          <li><a href="#">歌手</a></li>
+          <li><a href="#">新碟上架</a></li>
+        </div>
+      </div>
+    </div>
+
+    <!-- 轮播图+客户端下载 -->
+    <div class="container">
+      <!-- 轮播图 2.0-->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div
+              class="slide-picture"
+              id="slid"
+              style="background-image: url(../img/lbt/01.jpg)"
+            >
+              <div id="img"><img src="../img/lbt/01.jpg" alt="" /></div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div
+              class="slide-picture"
+              id="slid"
+              style="background-image: url(../img/lbt/02.jpg)"
+            >
+              <div id="img"><img src="../img/lbt/02.jpg" alt="" /></div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div
+              class="slide-picture"
+              id="slid"
+              style="background-image: url(../img/lbt/03.jpg)"
+            >
+              <div id="img"><img src="../img/lbt/03.jpg" alt="" /></div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div
+              class="slide-picture"
+              id="slid"
+              style="background-image: url(../img/lbt/04.jpg)"
+            >
+              <div id="img"><img src="../img/lbt/04.jpg" alt="" /></div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div
+              class="slide-picture"
+              id="slid"
+              style="background-image: url(../img/lbt/05.jpg)"
+            >
+              <div id="img"><img src="../img/lbt/05.jpg" alt="" /></div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div
+              class="slide-picture"
+              id="slid"
+              style="background-image: url(../img/lbt/06.jpg)"
+            >
+              <div id="img"><img src="../img/lbt/06.jpg" alt="" /></div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div
+              class="slide-picture"
+              id="slid"
+              style="background-image: url(../img/lbt/07.jpg)"
+            >
+              <div id="img"><img src="../img/lbt/07.jpg" alt="" /></div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div
+              class="slide-picture"
+              id="slid"
+              style="background-image: url(../img/lbt/08.jpg)"
+            >
+              <div id="img"><img src="../img/lbt/08.jpg" alt="" /></div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <!-- 客户端下载 -->
+      <div class="download">
+        <a class="download-btn" href="#"></a>
+        <p>PC 安卓 iPhone WP iPad Mac 六大客户端</p>
+      </div>
+    </div>
+
+    <!-- 中间 -->
+    <div id="discover-module" class="mid">
+      <div class="g-mn1">
+        <!-- 左边大部分 -->
+        <div class="g-mn1c">
+          <!-- 包络热门推荐，新碟上架一堆 -->
+          <div class="g-wrap3">
+            <!-- 热门推荐 -->
+            <div class="n-rcmd">
+              <!-- 标头 热门推荐 -->
+              <div class="v-head2">
+                <a href="#" class="tit f-ff2 f-tdn" id="recommend_title"
+                  >热门推荐</a
+                >
+                <div class="tab">
+                  <a href="#" class="s-fc3">华语</a>
+                  <span class="line">|</span>
+                  <a href="#" class="s-fc3">流行</a>
+                  <span class="line">|</span>
+                  <a href="#" class="s-fc3">摇滚</a>
+                  <span class="line">|</span>
+                  <a href="#" class="s-fc3">民谣</a>
+                  <span class="line">|</span>
+                  <a href="#" class="s-fc3">电子</a>
+                </div>
+                <!-- 更多 -->
+                <span class="more">
+                  <a href="#" class="s-fc3">更多</a>
+                  <i>&nbsp;</i>
+                </span>
+              </div>
+              <!-- 推荐的唱片 -->
+              <div class="m-cvrlst f-cb">
+                <li>
+                  <div class="u-cover u-cover1">
+                    <img src="../img/zj/001.jpg" alt="" />
+                  </div>
+                  <div class="bottom">
+                    <span class="icon-headset"></span>
+                    <span class="nb">1371万</span>
+                    <a href="#" class="icon-play"></a>
+                  </div>
+                  <p class="dec">【推荐】温柔古风歌曲</p>
+                </li>
+                <li>
+                  <div class="u-cover u-cover1">
+                    <img src="../img/zj/002.jpg" alt="" />
+                  </div>
+                  <div class="bottom">
+                    <span class="icon-headset"></span>
+                    <span class="nb">1351万</span>
+                    <a href="#" class="icon-play"></a>
+                  </div>
+                  <p class="dec">来看星星吧</p>
+                </li>
+                <li>
+                  <div class="u-cover u-cover1">
+                    <img src="../img/zj/003.jpg" alt="" />
+                  </div>
+                  <div class="bottom">
+                    <span class="icon-headset"></span>
+                    <span class="nb">2371万</span>
+                    <a href="#" class="icon-play"></a>
+                  </div>
+                  <p class="dec">【歌单】深夜emo必听</p>
+                </li>
+                <li>
+                  <div class="u-cover u-cover1">
+                    <img src="../img/zj/004.jpg" alt="" />
+                  </div>
+                  <div class="bottom">
+                    <span class="icon-headset"></span>
+                    <span class="nb">1335万</span>
+                    <a href="#" class="icon-play"></a>
+                  </div>
+                  <p class="dec">一起去看海~</p>
+                </li>
+                <li>
+                  <div class="u-cover u-cover1">
+                    <img src="../img/zj/005.jpg" alt="" />
+                  </div>
+                  <div class="bottom">
+                    <span class="icon-headset"></span>
+                    <span class="nb">1994万</span>
+                    <a href="#" class="icon-play"></a>
+                  </div>
+                  <p class="dec">【炉石传说】游戏ost合集</p>
+                </li>
+                <li>
+                  <div class="u-cover u-cover1">
+                    <img src="../img/zj/006.jpg" alt="" />
+                  </div>
+                  <div class="bottom">
+                    <span class="icon-headset"></span>
+                    <span class="nb">1101万</span>
+                    <a href="#" class="icon-play"></a>
+                  </div>
+                  <p class="dec">亲历者说</p>
+                </li>
+                <li>
+                  <div class="u-cover u-cover1">
+                    <img src="../img/zj/007.jpg" alt="" />
+                  </div>
+                  <div class="bottom">
+                    <span class="icon-headset"></span>
+                    <span class="nb">1026万</span>
+                    <a href="#" class="icon-play"></a>
+                  </div>
+                  <p class="dec">春风十里，远不及你~</p>
+                </li>
+                <li>
+                  <div class="u-cover u-cover1">
+                    <img src="../img/zj/008.jpg" alt="" />
+                  </div>
+                  <div class="bottom">
+                    <span class="icon-headset"></span>
+                    <span class="nb">1690万</span>
+                    <a href="#" class="icon-play"></a>
+                  </div>
+                  <p class="dec">一个双子座的听歌列表</p>
+                </li>
+              </div>
+            </div>
+            <!-- ·新碟上架 -->
+            <div class="n-new">
+              <!-- 新碟上架标头 -->
+              <div class="v-head2">
+                <a href="#" class="tit f-ff2 f-tdn" id="recommend_title"
+                  >新碟上架</a
+                >
+                <!-- 更多 -->
+                <span class="more">
+                  <a href="#" class="s-fc3">更多</a>
+                  <i>&nbsp;</i>
+                </span>
+              </div>
+              <!-- 新碟轮播图 -->
+              <div class="n-disk">
+                <div class="inner" id="album-roller">
+                  <!-- 轮播部分 -->
+                  <!-- ul里面有5个小li，点击一次箭头走5个盒子 -->
+                  <div class="roll f-pr">
+                    <ul class="f-cb roller-flag" id="auto-id-01">
+                      <li>
+                        <!-- 图片，歌名，歌手 -->
+                        <div class="u-cover u-cover-alb1">
+                          <img src="../img/n-disk/01.jpg" alt="" />
+                          <a href="../img/n-disk/01.jpg"></a>
+                          <span class="albm-play"></span>
+                        </div>
+                        <p class="f-thide"><a href="#">Nicole</a></p>
+                        <p class="tit f-thide"><a href="#">NIKI</a></p>
+                      </li>
+                      <li>
+                        <!-- 图片，歌名，歌手 -->
+                        <div class="u-cover u-cover-alb1">
+                          <img src="../img/n-disk/02.jpg" alt="" />
+                          <a href="../img/n-disk/02.jpg"></a>
+                          <span class="albm-play"></span>
+                        </div>
+                        <p class="f-thide"><a href="#">Nicole</a></p>
+                        <p class="tit f-thide"><a href="#">NIKI</a></p>
+                      </li>
+                      <li>
+                        <!-- 图片，歌名，歌手 -->
+                        <div class="u-cover u-cover-alb1">
+                          <img src="../img/n-disk/03.jpg" alt="" />
+                          <a href="../img/n-disk/03.jpg"></a>
+                          <span class="albm-play"></span>
+                        </div>
+                        <p class="f-thide"><a href="#">Nicole</a></p>
+                        <p class="tit f-thide"><a href="#">NIKI</a></p>
+                      </li>
+                      <li>
+                        <!-- 图片，歌名，歌手 -->
+                        <div class="u-cover u-cover-alb1">
+                          <img src="../img/n-disk/04.jpg" alt="" />
+                          <a href="../img/n-disk/04.jpg"></a>
+                          <span class="albm-play"></span>
+                        </div>
+                        <p class="f-thide"><a href="#">Nicole</a></p>
+                        <p class="tit f-thide"><a href="#">NIKI</a></p>
+                      </li>
+                      <li>
+                        <!-- 图片，歌名，歌手 -->
+                        <div class="u-cover u-cover-alb1">
+                          <img src="../img/n-disk/05.jpg" alt="" />
+                          <a href="../img/n-disk/05.jpg"></a>
+                          <span class="albm-play"></span>
+                        </div>
+                        <p class="f-thide"><a href="#">Nicole</a></p>
+                        <p class="tit f-thide"><a href="#">NIKI</a></p>
+                      </li>
+                    </ul>
+                    <ul class="f-cb roller-flag" id="auto-id-02">
+                      <li>
+                        <!-- 图片，歌名，歌手 -->
+                        <div class="u-cover u-cover-alb1">
+                          <img src="../img/n-disk/01.jpg" alt="" />
+                          <a href="../img/n-disk/01.jpg"></a>
+                          <span class="albm-play"></span>
+                        </div>
+                        <p class="f-thide"><a href="#">Nicole</a></p>
+                        <p class="tit f-thide"><a href="#">NIKI</a></p>
+                      </li>
+                      <li>
+                        <!-- 图片，歌名，歌手 -->
+                        <div class="u-cover u-cover-alb1">
+                          <img src="../img/n-disk/02.jpg" alt="" />
+                          <a href="../img/n-disk/02.jpg"></a>
+                          <span class="albm-play"></span>
+                        </div>
+                        <p class="f-thide"><a href="#">Nicole</a></p>
+                        <p class="tit f-thide"><a href="#">NIKI</a></p>
+                      </li>
+                      <li>
+                        <!-- 图片，歌名，歌手 -->
+                        <div class="u-cover u-cover-alb1">
+                          <img src="../img/n-disk/03.jpg" alt="" />
+                          <a href="../img/n-disk/03.jpg"></a>
+                          <span class="albm-play"></span>
+                        </div>
+                        <p class="f-thide"><a href="#">Nicole</a></p>
+                        <p class="tit f-thide"><a href="#">NIKI</a></p>
+                      </li>
+                      <li>
+                        <!-- 图片，歌名，歌手 -->
+                        <div class="u-cover u-cover-alb1">
+                          <img src="../img/n-disk/04.jpg" alt="" />
+                          <a href="../img/n-disk/04.jpg"></a>
+                          <span class="albm-play"></span>
+                        </div>
+                        <p class="f-thide"><a href="#">Nicole</a></p>
+                        <p class="tit f-thide"><a href="#">NIKI</a></p>
+                      </li>
+                      <li>
+                        <!-- 图片，歌名，歌手 -->
+                        <div class="u-cover u-cover-alb1">
+                          <img src="../img/n-disk/05.jpg" alt="" />
+                          <a href="../img/n-disk/05.jpg"></a>
+                          <span class="albm-play"></span>
+                        </div>
+                        <p class="f-thide"><a href="#">Nicole</a></p>
+                        <p class="tit f-thide"><a href="#">NIKI</a></p>
+                      </li>
+                    </ul>
+                    <ul class="f-cb roller-flag" id="auto-id-03">
+                      <li>
+                        <!-- 图片，歌名，歌手 -->
+                        <div class="u-cover u-cover-alb1">
+                          <img src="../img/n-disk/01.jpg" alt="" />
+                          <a href="../img/n-disk/01.jpg"></a>
+                          <span class="albm-play"></span>
+                        </div>
+                        <p class="f-thide"><a href="#">Nicole</a></p>
+                        <p class="tit f-thide"><a href="#">NIKI</a></p>
+                      </li>
+                      <li>
+                        <!-- 图片，歌名，歌手 -->
+                        <div class="u-cover u-cover-alb1">
+                          <img src="../img/n-disk/02.jpg" alt="" />
+                          <a href="../img/n-disk/02.jpg"></a>
+                          <span class="albm-play"></span>
+                        </div>
+                        <p class="f-thide"><a href="#">Nicole</a></p>
+                        <p class="tit f-thide"><a href="#">NIKI</a></p>
+                      </li>
+                      <li>
+                        <!-- 图片，歌名，歌手 -->
+                        <div class="u-cover u-cover-alb1">
+                          <img src="../img/n-disk/03.jpg" alt="" />
+                          <a href="../img/n-disk/03.jpg"></a>
+                          <span class="albm-play"></span>
+                        </div>
+                        <p class="f-thide"><a href="#">Nicole</a></p>
+                        <p class="tit f-thide"><a href="#">NIKI</a></p>
+                      </li>
+                      <li>
+                        <!-- 图片，歌名，歌手 -->
+                        <div class="u-cover u-cover-alb1">
+                          <img src="../img/n-disk/04.jpg" alt="" />
+                          <a href="../img/n-disk/04.jpg"></a>
+                          <span class="albm-play"></span>
+                        </div>
+                        <p class="f-thide"><a href="#">Nicole</a></p>
+                        <p class="tit f-thide"><a href="#">NIKI</a></p>
+                      </li>
+                      <li>
+                        <!-- 图片，歌名，歌手 -->
+                        <div class="u-cover u-cover-alb1">
+                          <img src="../img/n-disk/05.jpg" alt="" />
+                          <a href="../img/n-disk/05.jpg"></a>
+                          <span class="albm-play"></span>
+                        </div>
+                        <p class="f-thide"><a href="#">Nicole</a></p>
+                        <p class="tit f-thide"><a href="#">NIKI</a></p>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- 左箭头 -->
+                  <a class="click-flag-prev" href="javascript:;"></a>
+                  <!-- 右箭头 -->
+                  <a class="click-flag-next" href="javascript:;"></a>
+                </div>
+              </div>
+            </div>
+            <!-- ·榜单 -->
+            <div class="bill">
+              <!-- 榜单标头 -->
+              <div class="v-head2">
+                <a href="#" class="tit f-ff2 f-tdn" id="recommend_title"
+                  >榜单</a
+                >
+                <!-- 更多 -->
+                <span class="more">
+                  <a href="#" class="s-fc3">更多</a>
+                  <i>&nbsp;</i>
+                </span>
+              </div>
+              <!-- 3条排行榜 -->
+              <div class="n-bilst" id="top-flag">
+                <!-- 飙升榜 -->
+                <dl class="blk">
+                  <dt class="top">
+                    <div class="cver u-cover u-cover-4">
+                      <img src="../img/biaosheng.jpg" alt="" />
+                    </div>
+                    <div class="tit">
+                      <!-- 飙升图片 -->
+                      <a href="#" title="飙升榜">
+                        <h3 class="f-fs1 f-thide">飙升榜</h3>
+                      </a>
+                      <!-- 播放收藏 -->
+                      <div class="btn">
+                        <a class="play" href="#"></a>
+                        <a class="shoucang" href="#"></a>
+                      </div>
+                    </div>
+                  </dt>
+                  <!-- 列表 -->
+                  <dd>
+                    <ol>
+                      <li>
+                        <span class="n-bilst-top123">1</span>
+                        <a href="#" class="list-songs">小空</a>
+                        <div class="oper">
+                          <a href="#" class="play"></a>
+                          <a href="#" class="add-play"></a>
+                          <a href="#" class="star"></a>
+                        </div>
+                      </li>
+                      <li>
+                        <span class="n-bilst-top123">2</span>
+                        <a href="#" class="list-songs">紫荆花盛开</a>
+                        <div class="oper">
+                          <a href="#" class="play"></a>
+                          <a href="#" class="add-play"></a>
+                          <a href="#" class="star"></a>
+                        </div>
+                      </li>
+                      <li>
+                        <span class="n-bilst-top123">3</span>
+                        <a href="#" class="list-songs">轻描淡写</a>
+                        <div class="oper">
+                          <a href="#" class="play"></a>
+                          <a href="#" class="add-play"></a>
+                          <a href="#" class="star"></a>
+                        </div>
+                      </li>
+                      <li>
+                        <span class="n-bilst-4-10">4</span>
+                        <a href="#" class="list-songs">来年后-少年</a>
+                        <div class="oper">
+                          <a href="#" class="play"></a>
+                          <a href="#" class="add-play"></a>
+                          <a href="#" class="star"></a>
+                        </div>
+                      </li>
+                      <li>
+                        <span class="n-bilst-4-10">5</span>
+                        <a href="">爱降落在 </a>
+                        <div class="oper">
+                          <a href="#" class="play"></a>
+                          <a href="#" class="add-play"></a>
+                          <a href="#" class="star"></a>
+                        </div>
+                      </li>
+                      <li>
+                        <span class="n-bilst-4-10">6</span>
+                        <a href="">晴空烟火</a>
+                        <div class="oper">
+                          <a href="#" class="play"></a>
+                          <a href="#" class="add-play"></a>
+                          <a href="#" class="star"></a>
+                        </div>
+                      </li>
+                      <li>
+                        <span class="n-bilst-4-10">7</span>
+                        <a href="">Hayya Hayya</a>
+                        <div class="oper">
+                          <a href="#" class="play"></a>
+                          <a href="#" class="add-play"></a>
+                          <a href="#" class="star"></a>
+                        </div>
+                      </li>
+                      <li>
+                        <span class="n-bilst-4-10">8</span>
+                        <a href="">Christmas TreeFarm</a>
+                        <div class="oper">
+                          <a href="#" class="play"></a>
+                          <a href="#" class="add-play"></a>
+                          <a href="#" class="star"></a>
+                        </div>
+                      </li>
+                      <li>
+                        <span class="n-bilst-4-10">9</span>
+                        <a href="">巡光</a>
+                        <div class="oper">
+                          <a href="#" class="play"></a>
+                          <a href="#" class="add-play"></a>
+                          <a href="#" class="star"></a>
+                        </div>
+                      </li>
+                      <li>
+                        <span class="n-bilst-4-10">10</span>
+                        <a href="">Go Again</a>
+                        <div class="oper">
+                          <a href="#" class="play"></a>
+                          <a href="#" class="add-play"></a>
+                          <a href="#" class="star"></a>
+                        </div>
+                      </li>
+                    </ol>
+                    <li class="n-more">
+                      <a href="">查看全部></a>
+                    </li>
+                  </dd>
+                </dl>
+                <!-- 新歌榜 -->
+                <dl class="blk">
+                  <dt class="top">
+                    <div class="cver u-cover u-cover-4">
+                      <img src="../img/xinge.jpg" alt="" />
+                    </div>
+                    <div class="tit">
+                      <!-- 飙升图片 -->
+                      <a href="#" title="新歌榜">
+                        <h3 class="f-fs1 f-thide">新歌榜</h3>
+                      </a>
+                      <!-- 播放收藏 -->
+                      <div class="btn">
+                        <a class="play" href="#"></a>
+                        <a class="shoucang" href="#"></a>
+                      </div>
+                    </div>
+                  </dt>
+                  <!-- 列表 -->
+                  <dd>
+                    <ol>
+                      <li>
+                        <span class="n-bilst-top123">1</span>
+                        <a href="">回答</a>
+                        <!-- 鼠标经过显示三连 -->
+                        <div class="oper">
+                          <a href="#" class="play"></a>
+                          <a href="#" class="add-play"></a>
+                          <a href="#" class="star"></a>
+                        </div>
+                      </li>
+                      <li>
+                        <span class="n-bilst-top123">2</span>
+                        <a href="">Dreamers</a>
+                        <div class="oper">
+                          <a href="#" class="play"></a>
+                          <a href="#" class="add-play"></a>
+                          <a href="#" class="star"></a>
+                        </div>
+                      </li>
+                      <li>
+                        <span class="n-bilst-top123">3</span>
+                        <a href="">那么骄傲</a>
+                        <div class="oper">
+                          <a href="#" class="play"></a>
+                          <a href="#" class="add-play"></a>
+                          <a href="#" class="star"></a>
+                        </div>
+                      </li>
+                      <li>
+                        <span class="n-bilst-4-10">4</span>
+                        <a href="">乌莓子酱</a>
+                        <div class="oper">
+                          <a href="#" class="play"></a>
+                          <a href="#" class="add-play"></a>
+                          <a href="#" class="star"></a>
+                        </div>
+                      </li>
+                      <li>
+                        <span class="n-bilst-4-10">5</span>
+                        <a href="">当爱在靠近</a>
+                        <div class="oper">
+                          <a href="#" class="play"></a>
+                          <a href="#" class="add-play"></a>
+                          <a href="#" class="star"></a>
+                        </div>
+                      </li>
+                      <li>
+                        <span class="n-bilst-4-10">6</span>
+                        <a href="">Tukoh Taka</a>
+                        <div class="oper">
+                          <a href="#" class="play"></a>
+                          <a href="#" class="add-play"></a>
+                          <a href="#" class="star"></a>
+                        </div>
+                      </li>
+                      <li>
+                        <span class="n-bilst-4-10">7</span>
+                        <a href="">写不来情歌</a>
+                        <div class="oper">
+                          <a href="#" class="play"></a>
+                          <a href="#" class="add-play"></a>
+                          <a href="#" class="star"></a>
+                        </div>
+                      </li>
+                      <li>
+                        <span class="n-bilst-4-10">8</span>
+                        <a href="">再见我的女孩</a>
+                        <div class="oper">
+                          <a href="#" class="play"></a>
+                          <a href="#" class="add-play"></a>
+                          <a href="#" class="star"></a>
+                        </div>
+                      </li>
+                      <li>
+                        <span class="n-bilst-4-10">9</span>
+                        <a href="">彩色翅膀 2022</a>
+                        <div class="oper">
+                          <a href="#" class="play"></a>
+                          <a href="#" class="add-play"></a>
+                          <a href="#" class="star"></a>
+                        </div>
+                      </li>
+                      <li>
+                        <span class="n-bilst-4-10">10</span>
+                        <a href="">暴雨</a>
+                        <div class="oper">
+                          <a href="#" class="play"></a>
+                          <a href="#" class="add-play"></a>
+                          <a href="#" class="star"></a>
+                        </div>
+                      </li>
+                    </ol>
+                    <li class="n-more">
+                      <a href="">查看全部></a>
+                    </li>
+                  </dd>
+                </dl>
+                <!-- 原创榜 -->
+                <dl class="blk blk-1">
+                  <dt class="top">
+                    <div class="cver u-cover u-cover-4">
+                      <img src="../img/yuanchuang.jpg" alt="" />
+                    </div>
+                    <div class="tit">
+                      <!-- 飙升图片 -->
+                      <a href="#" title="原创榜">
+                        <h3 class="f-fs1 f-thide"></h3>
+                        <h3>原创榜</h3>
+                      </a>
+                      <!-- 播放收藏 -->
+                      <div class="btn">
+                        <a class="play" href="#"></a>
+                        <a class="shoucang" href="#"></a>
+                      </div>
+                    </div>
+                  </dt>
+                  <!-- 列表 -->
+                  <dd>
+                    <ol>
+                      <li>
+                        <span class="n-bilst-top123">1</span>
+                        <a href="">慢游</a>
+                        <!-- 鼠标经过显示三连 -->
+                        <div class="oper">
+                          <a href="#" class="play"></a>
+                          <a href="#" class="add-play"></a>
+                          <a href="#" class="star"></a>
+                        </div>
+                      </li>
+                      <li>
+                        <span class="n-bilst-top123">2</span>
+                        <a href="">绯红</a>
+                        <div class="oper">
+                          <a href="#" class="play"></a>
+                          <a href="#" class="add-play"></a>
+                          <a href="#" class="star"></a>
+                        </div>
+                      </li>
+                      <li>
+                        <span class="n-bilst-top123">3</span>
+                        <a href="">对啊对啊</a>
+                        <div class="oper">
+                          <a href="#" class="play"></a>
+                          <a href="#" class="add-play"></a>
+                          <a href="#" class="star"></a>
+                        </div>
+                      </li>
+                      <li>
+                        <span class="n-bilst-4-10">4</span>
+                        <a href="">换乘点</a>
+                        <div class="oper">
+                          <a href="#" class="play"></a>
+                          <a href="#" class="add-play"></a>
+                          <a href="#" class="star"></a>
+                        </div>
+                      </li>
+                      <li>
+                        <span class="n-bilst-4-10">5</span>
+                        <a href="">逃生舱</a>
+                        <div class="oper">
+                          <a href="#" class="play"></a>
+                          <a href="#" class="add-play"></a>
+                          <a href="#" class="star"></a>
+                        </div>
+                      </li>
+                      <li>
+                        <span class="n-bilst-4-10">6</span>
+                        <a href="">神秘关系</a>
+                        <div class="oper">
+                          <a href="#" class="play"></a>
+                          <a href="#" class="add-play"></a>
+                          <a href="#" class="star"></a>
+                        </div>
+                      </li>
+                      <li>
+                        <span class="n-bilst-4-10">7</span>
+                        <a href="">天蝎噩梦</a>
+                        <div class="oper">
+                          <a href="#" class="play"></a>
+                          <a href="#" class="add-play"></a>
+                          <a href="#" class="star"></a>
+                        </div>
+                      </li>
+                      <li>
+                        <span class="n-bilst-4-10">8</span>
+                        <a href="">月球背面</a>
+                        <div class="oper">
+                          <a href="#" class="play"></a>
+                          <a href="#" class="add-play"></a>
+                          <a href="#" class="star"></a>
+                        </div>
+                      </li>
+                      <li>
+                        <span class="n-bilst-4-10">9</span>
+                        <a href="">来年后-少年</a>
+                        <div class="oper">
+                          <a href="#" class="play"></a>
+                          <a href="#" class="add-play"></a>
+                          <a href="#" class="star"></a>
+                        </div>
+                      </li>
+                      <li>
+                        <span class="n-bilst-4-10">10</span>
+                        <a href="">帽子戏法</a>
+                        <div class="oper">
+                          <a href="#" class="play"></a>
+                          <a href="#" class="add-play"></a>
+                          <a href="#" class="star"></a>
+                        </div>
+                      </li>
+                    </ol>
+                    <li class="n-more">
+                      <a href="">查看全部></a>
+                    </li>
+                  </dd>
+                </dl>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 右边侧边栏 -->
+        <div class="g-sdr">
+          <!-- 用户登陆 -->
+          <div class="sdr-login">
+            <div class="r-login">
+              <p class="r-note s-fc3">
+                登录网易云音乐，可以享受无限收藏的乐趣，并且无限同步到手机
+              </p>
+              <a href="#" id="r-login">用户登录</a>
+            </div>
+          </div>
+
+          <!-- 入驻歌手 -->
+          <div class="sdr-singer">
+            <!-- 头部 -->
+            <div class="v-hd3">
+              <span class="r-singer">入驻歌手</span>
+              <a href="#" class="r-more s-fc3">查看全部 ></a>
+            </div>
+            <!-- 歌手 -->
+            <ul class="rz-singer">
+              <li class="singer">
+                <a href="#">
+                  <div class="singer-head"><img src="../img/gs/5.jpg" /></div>
+                  <div class="singer-info">
+                    <h4>张惠妹aMEI</h4>
+                    <p class="s-fc3">台湾歌手张惠妹</p>
+                  </div>
+                </a>
+              </li>
+              <li class="singer">
+                <a href="#">
+                  <div class="singer-head"><img src="../img/gs/5.jpg" /></div>
+                  <div class="singer-info">
+                    <h4>张惠妹aMEI</h4>
+                    <p class="s-fc3">台湾歌手张惠妹</p>
+                  </div>
+                </a>
+              </li>
+              <li class="singer">
+                <a href="#">
+                  <div class="singer-head"><img src="../img/gs/5.jpg" /></div>
+                  <div class="singer-info">
+                    <h4>张惠妹aMEI</h4>
+                    <p class="s-fc3">台湾歌手张惠妹</p>
+                  </div>
+                </a>
+              </li>
+              <li class="singer">
+                <a href="#">
+                  <div class="singer-head"><img src="../img/gs/5.jpg" /></div>
+                  <div class="singer-info">
+                    <h4>张惠妹aMEI</h4>
+                    <p class="s-fc3">台湾歌手张惠妹</p>
+                  </div>
+                </a>
+              </li>
+              <li class="singer">
+                <a href="#">
+                  <div class="singer-head"><img src="../img/gs/5.jpg" /></div>
+                  <div class="singer-info">
+                    <h4>张惠妹aMEI</h4>
+                    <p class="s-fc3">台湾歌手张惠妹</p>
+                  </div>
+                </a>
+              </li>
+              <div>
+                <a href="#" class="apply-singer"><b>申请成为前端工作人员</b></a>
+              </div>
+            </ul>
+          </div>
+          <div class="sgr-liver">
+            <!-- 头部 -->
+            <div class="v-hd3">
+              <span class="r-liver">热门主播</span>
+            </div>
+            <!-- 主播 -->
+            <ul class="rz-liver">
+              <li class="liver">
+                <a href="#" class="cver"><img src="../img/zb/1.jpg" /></a>
+                <div class="liver-info">
+                  <p>
+                    <a href="#" class="liver-name">陈立</a>
+                  </p>
+                  <p class="s-fc3">心理学家、美食家陈立教授</p>
+                </div>
+              </li>
+              <li class="liver">
+                <a href="#" class="cver"><img src="../img/zb/1.jpg" /></a>
+                <div class="liver-info">
+                  <p>
+                    <a href="#" class="liver-name">陈立</a>
+                  </p>
+                  <p class="s-fc3">心理学家、美食家陈立教授</p>
+                </div>
+              </li>
+              <li class="liver">
+                <a href="#" class="cver"><img src="../img/zb/1.jpg" /></a>
+                <div class="liver-info">
+                  <p>
+                    <a href="#" class="liver-name">陈立</a>
+                  </p>
+                  <p class="s-fc3">心理学家、美食家陈立教授</p>
+                </div>
+              </li>
+              <li class="liver">
+                <a href="#" class="cver"><img src="../img/zb/1.jpg" /></a>
+                <div class="liver-info">
+                  <p>
+                    <a href="#" class="liver-name">陈立</a>
+                  </p>
+                  <p class="s-fc3">心理学家、美食家陈立教授</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 底下footer -->
+    <footer class="g-ft">
+      <div class="wrap f-cb">
+        <!-- 上边 -->
+        <ul class="enter f-fr">
+          <li class="unit">
+            <a class="logo-ft p1" href=""></a>
+            <span class="tt">光碟</span>
+          </li>
+          <li class="unit">
+            <a class="logo-ft p2" href=""></a>
+            <span class="tt">评论</span>
+          </li>
+          <li class="unit">
+            <a class="logo-ft p3" href=""></a>
+            <span class="tt">话筒</span>
+          </li>
+          <li class="unit">
+            <a class="logo-ft p4" href=""></a>
+            <span class="tt">打钱</span>
+          </li>
+          <li class="unit">
+            <a class="logo-ft p5" href=""></a>
+            <span class="tt">MV</span>
+          </li>
+          <li class="unit">
+            <a class="logo-ft p6" href=""></a>
+            <span class="tt">对勾护盾</span>
+          </li>
+          <li class="unit">
+            <a class="logo-ft p7" href=""></a>
+            <span class="tt">Amped Studio</span>
+          </li>
+        </ul>
+        <!-- 下边 -->
+        <div class="copy">
+          <div class="link">
+            <a href="#" class="s-fc3"> 服务条款</a>
+            <span class="line">|</span>
+            <a href="#" class="s-fc3">隐私政策</a>
+            <span class="line">|</span>
+            <a href="#" class="s-fc3">儿童隐私政策</a>
+            <span class="line">|</span>
+            <a href="#" class="s-fc3">版权投诉</a>
+            <span class="line">|</span>
+            <a href="#" class="s-fc3">投资者关系</a>
+            <span class="line">|</span>
+            <a href="#" class="s-fc3">广告合作</a>
+            <span class="line">|</span>
+            <a href="#" class="s-fc3">联系我们</a>
+          </div>
+          <div class="right s-fc3">
+            <a href="#" class="s-fc3">廉正举报</a>
+            <span class="right s-fc3"
+              >不良信息举报邮箱: 51jubao@service.netease.com</span
+            >
+            <span class="right s-fc3">客服热线：95163298</span>
+          </div>
+          <div class="right s-fc3">
+            <span class="right s-fc3"
+              >互联网宗教信息服务许可证：浙（2022）0000120
+              增值电信业务经营许可证：浙B2-20150198</span
+            >
+            <a href="#" class="s-fc3"
+              >粤B2-20090191-18 工业和信息化部备案管理系统网站</a
+            >
+          </div>
+          <div class="right s-fc3">
+            <span class="right s-fc3">网易公司版权所有©1997-2023</span>
+            <span class="right s-fc3">杭州乐读科技有限公司运营：浙网文</span>
+            <a href="#" class="s-fc3">[2021] 1186-054号</a>
+            <a href="#" class="s-fc3">浙公网安备 33010902002564号</a>
+          </div>
+        </div>
+
+        <!-- 回到顶部 -->
+        <a class="m-back s-fc3" id="totop">回到顶部</a>
+      </div>
+    </footer>
+
+    <!-- 引用js文件 -->
+    <script src="../swiper/swiper-bundle.min.js"></script>
+    <script src="../js/index.js"></script>
+  </body>
+</html>

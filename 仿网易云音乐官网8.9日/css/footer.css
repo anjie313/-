@@ -1,0 +1,86 @@
+/* 上边 */
+.enter {
+  display: flex;
+  margin: auto;
+  width: 985px;
+  height: 120px;
+  padding: 20px 0;
+}
+.enter li {
+  width: 100px;
+  height: 120px;
+  padding: 0 20px;
+}
+.logo-ft {
+  width: 90px;
+  height: 90px;
+  display: block;
+  background-image: url('/img/foot_enter_new.png');
+  background-repeat: no-repeat;
+}
+.p1 {
+  background-position: 0px -600px;
+}
+.p2 {
+  background-position: -120px -600px;
+}
+.p3 {
+  background-position: 0px -700px;
+}
+.p4 {
+  background-position: -120px -700px;
+}
+.p5 {
+  background-position: 0px -800px;
+}
+.p6 {
+  background-position: -120px -800px;
+}
+.p7 {
+  background-position: 0px -900px;
+}
+/* -300：白的
+-600：黑的
+-108：右边 */
+.unit .tt {
+  width: 90px;
+  padding-top: 10px;
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  color: #333;
+}
+/* 下边 */
+.copy {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 985px;
+}
+.copy div {
+  width: 100%;
+  padding: 5px 0;
+  display: inline-block;
+  text-align: center;
+}
+.copy a,
+.copy span {
+  padding: 0 5px;
+}
+.copy a:hover {
+  text-decoration: underline;
+}
+.m-back {
+  display: none;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ccc;
+  background-color: #eee;
+  line-height: 50px;
+  position: fixed;
+  right: 350px;
+  bottom: 50px;
+}
+.m-back:hover {
+  cursor: pointer;
+}
