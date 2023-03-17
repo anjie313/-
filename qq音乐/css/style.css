@@ -1,0 +1,308 @@
+/*首页导航栏*/
+body {
+	padding: 0px;
+	margin: 0px;
+}
+
+#navi {
+	padding-left: 162px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #c3c3c3;
+	height: 56px;
+	font-family: 黑体;
+	font-size: 20px0;
+}
+
+#logo {
+	float: left;
+	margin-top: 15px;
+	width: 170px;
+	height: 46px;
+	background-image: url(img/logo.png);
+}
+
+.link {
+	float: left;
+	width: 120px;
+	height: 76px;
+	text-align: center;
+	line-height: 76px;
+	color: black;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+.link a {
+	display: block;
+	width: 120px;
+	height: 76px; 
+	text-decoration: none;
+	color: black;
+}
+
+.link:hover {
+	background-color: lightgreen;
+	color: white;
+}
+
+.link:hover a {
+	background-color: lightgreen;
+	color: white;
+}
+
+#setting {
+	float: right;
+	height: 76px;
+	width: 120px;
+	line-height: 76px;
+	text-align: center;
+	font-size: 17px;
+}
+
+#setting a {
+	text-decoration: none;
+	color: black;
+}
+
+#setting a:hover {
+	color: #228B22;
+}
+
+#chongzhi {
+	float: right;
+	height: 76px;
+	width: 300px;
+	text-align: center;
+	font-size: 13.5px;
+}
+
+#chongzhi a {
+	text-decoration: none;
+	color: white;
+	background-color: #31C27C;
+	display: block;
+}
+
+#chongzhi div {
+	margin-top: 20px;
+	margin-right: 170px;
+	width: 90px;
+	height: 35px;
+	border: 2px solid #31C27C;
+	line-height: 35.5px;
+	text-align: center;
+	border-radius: 3px;
+	font-size: 15px;
+
+}
+
+#chongzhi div a:hover {
+	color: #31C27C;
+	background-color: #FFFFFF;
+}
+
+.title {
+	width: 180px;
+	margin: 0px auto;
+	margin-top: 30px;
+	font-size: 28px;
+	text-align: center;
+	font-family: 黑体;
+	font-weight: bold;
+}
+
+#songlist {
+	width: 800px;
+	height: 200px;
+	margin: 0px auto;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.songitem {
+	float: left;
+	width: 200px;
+	height: 200px;
+}
+
+.songitem a {
+	font-size: 15px;
+	color: #000000;
+	text-decoration: none;
+}
+
+.songitem a:hover {
+	color: #31C27C;
+}
+
+.songitem .arties {
+	color: grey;
+	font-size: 12px;
+}
+
+.MVtitle {
+	width: 180px;
+	margin: 0px auto;
+	margin-top: 30px;
+	font-size: 28px;
+	text-align: center;
+	font-family: 黑体;
+	font-weight: bold;
+}
+
+#MVlist {
+	width: 700px;
+	height: 200px;
+	margin: 0px auto;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.MVitem {
+	float: left;
+	width: 350px;
+	height: 200px;
+}
+
+.MVitem a {
+	font-size: 15px;
+	color: #000000;
+	text-decoration: none;
+}
+
+.MVitem a:hover {
+	color: #31C27C;
+}
+
+.MVitem .arties {
+	color: grey;
+	font-size: 12px;
+}
+.tuijian {
+	width: 180px;
+	margin: 0px auto;
+	margin-top: 30px;
+	font-size: 28px;
+	text-align: center;
+	font-family: 黑体;
+	font-weight: bold;
+}
+
+#tjlist {
+	width: 1200px;
+	margin: 0px auto;
+	margin-top: 30px;
+	text-align: center;
+}
+	
+/*精选歌单页面*/
+
+	.title {
+		width: 180px;
+		margin: 0px auto;
+		margin-top: 30px;
+		font-size: 28px;
+		text-align: center;
+		font-family: 黑体;
+		font-weight: bold;
+	}
+
+	#songlist {
+		width: 800px;
+		height: 200px;
+		margin: 0px auto;
+		margin-top: 30px;
+		text-align: center;
+	}
+
+	.songitem {
+		float: left;
+		width: 200px;
+		height: 200px;
+	}
+
+	.songitem a {
+		font-size: 15px;
+		color: #000000;
+		text-decoration: none;
+	}
+
+	.songitem a:hover {
+		color: #31C27C;
+	}
+
+	.songitem .arties {
+		color: grey;
+		font-size: 12px;
+	}
+	.title {
+		width: 1000px;
+		margin: 0px auto;
+		margin-top: 20px;
+	}
+
+	.title .mainTitle {
+		font-size: 22px;
+		font-weight: bold;
+	}
+
+	.title .secondTitle {
+		font-size: 14px;
+		color: #999;
+	}
+
+	.songlist {
+		width: 1000px;
+		margin: 0px auto;
+	}
+
+	.songlist thead tr {
+		background-color: #FFFFEF;
+		height: 50px;
+		color: #CCC;
+	}
+
+	.songlist tbody tr {
+		height: 100px;
+		font-size: 14px;
+	}
+
+	.songlist tbody .rank {
+		font-size: 24px;
+	}
+
+	.songlist tbody .hot {
+		color: red;
+	}
+
+	.songlist tbody .rate {
+		font-size: 12px;
+		color: #999;
+	}
+
+	.songlist tbody .songimg {
+		width: 80px;
+		height: 80px;
+		float: left;
+	}
+
+	.songlist tbody .songtitle {
+		width: 400px;
+		height: 80px;
+		line-height: 80px;
+		padding-left: 10px;
+		float: left;
+	}
+
+	.songlist tbody .songtitle a {
+		text-decoration: none;
+		color: #000;
+	}
+
+	.songlist tbody .songtitle a:hover {
+		color: #31C27C;
+	}
+
+	.songlist tbody .timer {
+		color: #999;
+	}
